@@ -64,7 +64,7 @@ npm run dev
 
 ### Verificação do banco
 
-- Utilize o Terminal SQL (git Bash)
+- Utilize o Terminal SQL (Git Bash)
 #### Execute consultas como:
 ```
 SELECT * FROM professores;
