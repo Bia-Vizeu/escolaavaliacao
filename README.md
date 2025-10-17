@@ -8,8 +8,8 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 
 # Requisitos de Infraestrutura
 #### Sistema de Gerenciamento de Banco de Dados (SGBD)
-- SGBD: PostgreSQL
-- Versão recomendada: 15.0 ou superior
+- SGBD: MySQL
+- Versão recomendada: 8.0+ (recomendado) 
 
 # Servidor de Aplicação
 - Backend: Node.js com Express
@@ -23,7 +23,6 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
   - CPU Dual Core
   - 4 GB RAM
   - Conexão com internet
-  - Banco PostgreSQL instalado e ativo
 
 # Linguagem de Programação
 - Frontend: HTML5, CSS3 e JavaScript
