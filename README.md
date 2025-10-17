@@ -1,12 +1,31 @@
 # escolaavaliacao
 
-## Sistema de Controle de Turmas e Atividades de Professores
+# Sistema de Controle de Turmas e Atividades de Professores
 
 Este projeto tem como objetivo auxiliar professores no gerenciamento de turmas e atividades, permitindo o cadastro, listagem e exclusão de turmas, além do registro e visualização de atividades.
 
 O sistema também inclui autenticação de usuário (login/logout) e foi desenvolvido com foco em simplicidade e organização pedagógica.
 
-## Linguagem de Programação
+# Requisitos de Infraestrutura
+#### Sistema de Gerenciamento de Banco de Dados (SGBD)
+- SGBD: PostgreSQL
+- Versão recomendada: 15.0 ou superior
+
+# Servidor de Aplicação
+- Backend: Node.js com Express
+- Versão recomendada: Node.js 18.0+
+- Servidor HTTP: Express.js
+- Hospedagem: Vercel
+
+# Sistema Operacional indicado
+- Ambiente de desenvolvimento: Windows 10+, macOS 12+ ou Linux Ubuntu 22.04+
+- Requisitos mínimos:
+  - CPU Dual Core
+  - 4 GB RAM
+  - Conexão com internet
+  - Banco PostgreSQL instalado e ativo
+
+# Linguagem de Programação
 - Frontend: HTML5, CSS3 e JavaScript
 - Backend: Node.js
 - Banco de dados: SQL
@@ -15,50 +34,43 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 - JavaScript
 - SQL
 
-## Dependências principais
-```
-"dependencies": {
-  "express": "^4.18.2",
-  "cors": "^2.8.5",
-  "pg": "^8.11.1",
-  "jsonwebtoken": "^9.0.0",
-  "bcryptjs": "^2.4.3",
-  "dotenv": "^16.0.3"
-}
-```
+# Como Testar o Sistema
 
-## Instalação e Configuração
-1. Clonar o repositório
-```
-git clone https://github.com/Bia-Vizeu/escolaavaliacao.git
+### Inicie o banco de dados
 
-cd controle-turmas
-```
+- Certifique-se de que o PostgreSQL está rodando.
+- Crie o banco de dados com o nome turmaDB.
 
-2.  Instalar dependências
-```
-npm install
-```
-
-3.  Configurar variáveis de ambiente
-
-Crie um arquivo .env na raiz do projeto:
-
-```
-PORT=3000
-
-DATABASE_URL=postgres://usuario:senha@localhost:5432/controle_turmas
-
-JWT_SECRET=sua_chave_secreta
-```
-
-4. Rodar o servidor backend
+### Inicie o servidor Node.js
 ```
 npm run dev
 ```
+>[!NOTE] 
+> A API será iniciada e estará pronta para receber requisições.
 
-> [!NOTE]
-> O servidor será iniciado em http://localhost:3000
+### Acesse o sistema web
+
+- Abra o arquivo index.html na pasta **/escolaavaliacao** ou execute o servidor local.
+- Faça login com um professor cadastrado.
+
+### Funcionalidades para testar:
+
+ - Autenticação de professor (login/logout)
+ - Cadastro de turma
+ - Listagem de turmas do professor
+ - Exclusão de turma
+ - Cadastro de atividades para uma turma
+ - Listagem de atividades da turma
+
+### Verificação do banco
+
+- Utilize o Terminal SQL (git Bash)
+#### Execute consultas como:
+```
+SELECT * FROM professores;
+SELECT * FROM turmas;
+SELECT * FROM atividades;
+```
 
 #### Diagrama de Casos de Uso (DCU)
 <p align="center">
@@ -69,3 +81,9 @@ npm run dev
 <p align="center">
   <img src="./docs/img/DER.png" alt="Diagrama entidade relacionamento" style="width:80%; height:auto;">
 </p>
+
+# Desenvolvido por
+
+- Aluna: Beatriz Vizeu
+- Instituição: SENAI
+
