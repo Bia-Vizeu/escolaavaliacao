@@ -56,7 +56,7 @@ npm run dev
 ### Acesse o sistema web
 
 - Abra o arquivo index.html na pasta **/escolaavaliacao** ou execute o servidor local.
-- Faça login com um professor cadastrado.
+- Faça login com um professor cadastrado ou registre-se.
 
 ### Funcionalidades para testar:
 
@@ -90,5 +90,4 @@ SELECT * FROM atividades;
 # Desenvolvido por
 
 - Aluna: Beatriz Vizeu
-- Instituição: SENAI
 
