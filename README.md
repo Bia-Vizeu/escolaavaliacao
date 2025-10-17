@@ -38,7 +38,9 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 
 ### Inicie o servidor Node.js
 ```
-npm run dev
+npm start server.js 
+ou 
+nodemon server.js
 ```
 >[!NOTE] 
 > A API será iniciada e estará pronta para receber requisições.
