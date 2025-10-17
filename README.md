@@ -25,9 +25,9 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
   - Conexão com internet
 
 # Linguagem de Programação
-- Frontend: HTML5, CSS3 e JavaScript
-- Backend: Node.js
-- Banco de dados: SQL
+- Frontend: HTML5, CSS e JavaScript
+- Backend: JavaScript, Node.js, Express, Prisma ORM 
+- Banco de dados: MySQL
 
 ### Linguagens utilizadas:
 - JavaScript
@@ -37,7 +37,7 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 
 ### Inicie o banco de dados
 
-- Certifique-se de que o PostgreSQL está rodando.
+- Certifique-se de que o MySQL está rodando.
 - Crie o banco de dados com o nome turmaDB.
 
 ### Inicie o servidor Node.js
