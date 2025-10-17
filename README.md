@@ -31,19 +31,27 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 
 # Como Testar o Sistema
 
-### Inicie o banco de dados
+### 2. Configuração do Projeto
 
-- Certifique-se de que o MySQL está rodando.
-- Crie o banco de dados com o nome turmaDB.
+```bash
+cd api
 
-### Inicie o servidor Node.js
+npm install
+
+DATABASE_URL="mysql://root@localhost:3306/turmas_db?schema=public&timezone=UTC"
+
+npx prisma generate
+npx prisma migrate dev --name init
 ```
-npm start server.js 
-ou 
-nodemon server.js
+
+### 3. Inicialização do Sistema
+
+```bash
+npm run dev
 ```
+
 >[!NOTE] 
-> A API será iniciada e estará pronta para receber requisições.
+> A API será iniciada.
 
 ### Acesse o sistema web
 
