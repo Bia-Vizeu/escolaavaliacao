@@ -28,19 +28,19 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
 ```
 
 ## Instalação e Configuração
-1️⃣ Clonar o repositório
+1. Clonar o repositório
 ```
 git clone https://github.com/Bia-Vizeu/escolaavaliacao.git
 
 cd controle-turmas
 ```
 
-2️⃣ Instalar dependências
+2.  Instalar dependências
 ```
 npm install
 ```
 
-3️⃣ Configurar variáveis de ambiente
+3.  Configurar variáveis de ambiente
 
 Crie um arquivo .env na raiz do projeto:
 
@@ -52,7 +52,7 @@ DATABASE_URL=postgres://usuario:senha@localhost:5432/controle_turmas
 JWT_SECRET=sua_chave_secreta
 ```
 
-4️⃣ Rodar o servidor backend
+4. Rodar o servidor backend
 ```
 npm run dev
 ```
