@@ -25,13 +25,9 @@ O sistema também inclui autenticação de usuário (login/logout) e foi desenvo
   - Conexão com internet
 
 # Linguagem de Programação
-- Frontend: HTML5, CSS e JavaScript
+- Frontend: HTML, CSS e JavaScript
 - Backend: JavaScript, Node.js, Express, Prisma ORM 
 - Banco de dados: MySQL
-
-### Linguagens utilizadas:
-- JavaScript
-- SQL
 
 # Como Testar o Sistema
 
