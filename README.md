@@ -79,7 +79,7 @@ SELECT * FROM atividades;
 
 #### Diagrama de Casos de Uso (DCU)
 <p align="center">
-  <img src="./docs/img/DCU.png" alt="Diagrama de Casos de Uso" style="width:80%; height:auto;">
+  <img src="./docs/img/DCU3.png" alt="Diagrama de Casos de Uso" style="width:80%; height:auto;">
 </p>
 
 #### Diagrama entidade relacionamento (DER)
